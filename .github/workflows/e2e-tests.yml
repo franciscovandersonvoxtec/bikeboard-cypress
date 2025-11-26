@@ -25,7 +25,7 @@ jobs:
           BASE_URL: ${{ github.event.inputs.base_url }}
         with:
           start: npm start
-          browser: ${{ github.event.inputs.base_url }}
+          browser: ${{ github.event.inputs.browser }}
       
       - name: Upload Screenshots
         uses: actions/upload-artifact@v4
