@@ -13,7 +13,7 @@ describe('Cadastro de Anúncio', () => {
 
     cy.url().should('include', '/sucesso')
     cy.get('h3')
-      .contains('Anúncio Enviado com Suceço!')
+      .contains('Anúncio Enviado com Sucesso!')
       .should('be.visible')
 
     cy.contains('Obrigado por escolher o BikeBoard para anunciar sua bicicleta')
